@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Orloj';
+    src: url('./fonts/Orloj.woff2') format('woff2'),
+        url('./fonts/Orloj.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    background-color: cadetblue;
+}
+.soat{
+    border: 10px solid salmon;
+    display: inline-block;
+    width: 500px;
+    height: 450px;
+    border-radius: 50%;
+    margin-left: 600px;
+    margin-top: 150px;
+    background-color: slateblue;
+}
+.time{
+    font-family: 'Orloj';
+ color: springgreen;
+ margin-left: 18px;
+ margin-top: 175px;
+ font-size: 80px;
+ text-shadow:  0px 0px 30px springgreen;
+}
